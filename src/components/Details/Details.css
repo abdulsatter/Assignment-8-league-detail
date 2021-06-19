@@ -1,0 +1,53 @@
+.main{
+    margin: 20px;
+    padding: 20px;
+    background-image: linear-gradient(90deg, #464681, #9569fd);
+}
+.header img{
+    height: 250px;
+    width: 1200px;
+    margin: 50px;
+}
+.cart{
+    height: 300px;
+    width: 1200px;
+    border:1px solid purple;
+    text-align: justify;
+    margin: 50px;
+    color:white;
+    background-color: navy;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px gray;
+    padding: 10px;
+}
+.side-view{
+    float: right;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.side-view{
+    width: 300px; 
+}
+.info{
+    margin: 50px;
+    text-align: justify;
+    color: white;
+    border: 1px solid purple;
+    box-shadow: 10px 10px 15px gray;
+    padding: 10px;
+}
+
+
+  @media only screen and (max-width: 768px) {
+  .main {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 1200px){
+      .main{
+        width: 100%;
+      }
+  }

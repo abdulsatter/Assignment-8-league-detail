@@ -1,0 +1,24 @@
+.league-container{
+    border: 1px solid purple;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    background-color: lightgrey;
+    border-radius: 20px;
+    color: blue;
+    box-shadow: 15px 15px 15px gray;
+
+}
+.btn{
+    background-color: #1519fa;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn:hover{
+    background-color: steelblue;
+    color: goldenrod;
+}
